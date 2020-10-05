@@ -1,50 +1,49 @@
-.container{
+   .box {
     display: flex;
-    flex-direction: row;
-}
-.greenyellow{
-    height: 15%;
+    flex-flow: row wrap;
+   }
+   .box1 {  
+    background-color: #2ECC71;
     width: 70%;
-    background-color: greenyellow;
-}
-.lightblue{
-    height: 15%;
+    height: 20px;
+  }
+   .box2 {
+    background-color: #2980b9;
     width: 30%;
-    background-color: lightblue;
-}
-.red{
-    height: 15% ;
-    width: 40%;
-    background-color: red;
-}
-.orange{
-    height: 15%;
-    width: 30%;
-    background-color: orange;
-}
-.gray{
-    height: 15%;
-    width: 30%;
-    background-color: gray;
-}
-.amber{
-    height: 15%;
-    width: 20%;
-    background-color: sandybrown;
-}
-.green{
-    height: 15%;
-    width: 20%;
-    background-color: green;
-}
-
-.darkred{
-    height: 15%;
-    width: 20%;
-    background-color: sienna;
-}
-.grey{
-    height: 45%;
+    height: 20px;
+  }
+   .box3 {
+    background-color:#95A5A6;
+    width: 33%;
+    height: 20px;
+  }
+   .box4 {
+    background-color:#E67E22;
+    width: 33%;
+    height: 20px;
+  }
+  .box5 {
+    background-color:#E74C3C;
+    width: 33%;
+    height: 20px;
+  }
+  .box6 {
+    background-color:#F39C12;
+    width: 22%;
+    height: 20px;
+  }
+  .box7 {
+    background-color:#16A085;
+    width: 22%;
+    height: 20px;
+  }
+  .box8 {
+    background-color:#D35400;
+    width: 22%;
+    height: 20px;
+  }
+  .box9 {
+    background-color:#2C3E50;
     width: 100%;
-    background-color: grey;
-}
+    height: 60px;
+  }
