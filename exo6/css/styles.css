@@ -1,16 +1,19 @@
    .box {
-    display: flex;
-    flex-flow: row wrap;
+    display: grid; 
+    grid-template-columns: 20px 20px;
+    grid-template-rows: 70%;
    }
    .box1 {  
     background-color: #2ECC71;
     width: 70%;
     height: 20px;
+    justify-items: start;
   }
    .box2 {
     background-color: #2980b9;
     width: 30%;
     height: 20px;
+    justify-items: end;
   }
    .box3 {
     background-color:#95A5A6;
