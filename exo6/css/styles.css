@@ -1,66 +1,76 @@
-   body, html, 
-   
-   #firstrow {
-    display: grid; 
-    grid-row: 
-   }
-   #green {  
-    background-color: #2ECC71;
-    grid-column: 1; grid-row: 1;
-    width: 70%;
-    height: 20px;
-    justify-items: start;
-  }
-   #blue {
-    background-color: #2980b9;
-    grid-column: 2; grid-row: 1;
-    width: 30%;
-    height: 20px;
-    justify-items: end;
-  }
-  #secondrow {
-   display: grid;
-  }
-   #grey {
-    background-color:#95A5A6;
-    grid-column: 3; grid-row: 3;
+html, body {
+  height: 100%;
+}
+#firstRow{
+    display: flex;
+    flex-wrap: wrap;
+    height: 10%;
+}
+
+#green{
+    width: 80%;
+    background-color: green;
+}
+
+#bleu{
+    width: 20%;
+    background-color: blue;
+}
+
+#secondRow{
+    display: flex;
+    flex-wrap: wrap;
+    height: 20%;
+}
+
+#red{
+    width: 34%;
+    background-color: red;
+}
+
+#others{
+    display: flex;
+    flex-wrap: wrap;
+    width: 66%;
+}
+
+#orange{
+    width: 50%;
+    height: 50%;
+    background-color: orange;
+}
+
+#grey{
+    width: 50%;
+    height: 50%;
+    background-color: grey;
+}
+
+#thirdRow {
+    display: flex;
+    flex-wrap: wrap;
+    height: 30%;
+}
+
+#yellow{
     width: 33%;
-    height: 20px;
-    justify-items: end;
-  }
-   #orange {
-    background-color:#E67E22;
+    height: 50%;
+    background-color: yellow;
+}
+
+#light-blue{
+    width: 34%;
+    height: 50%;
+    background-color: lightblue;
+}
+
+#dark-orange{
     width: 33%;
-    height: 20px;
-    justify-items: center;
-  }
-  #rouge {
-    background-color:#E74C3C;
-    width: 33%;
-    height: 20px;
-    justify-items: start;
-  }
-  #conteneur3 {
-    display: grid;
-  }
-  #box6 {
-    background-color:#F39C12;
-    width: 22%;
-    height: 20px;
-  }
-  #box7 {
-    background-color:#16A085;
-    width: 22%;
-    height: 20px;
-  }
-  #box8 {
-    background-color:#D35400;
-    width: 22%;
-    height: 20px;
-  }
-  #box9 {
-    grid-column: 1 / span 2;
-    background-color:#2C3E50;
+    height: 50%;
+    background-color: darkorange;
+}
+
+#dark-blue{
     width: 100%;
-    height: 60px;
-  }
+    background-color: darkblue;
+}
