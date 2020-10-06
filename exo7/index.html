@@ -4,14 +4,14 @@
 <head>
   <title>Votre identite</title>
   <meta charset="UTF-8">
-  <link rel="stylesheet href="styles.css">    
+  <link rel="stylesheet href="css/styles.css">    
 </head>
 
 <body>
   <h1></h1>
   <form method="POST" action="traitement.php">
         <fieldset>
-        <fieldset class="identite">
+        <fieldset id="identite">
           <legend class="identite">Votre identité</legend>
             <label for="lname">1 : Nom :</label>
             <input type="text" placeholder="Nom"> <br>
@@ -20,7 +20,7 @@
             <label for="mail">3 : Prénom :</label>
             <input type="email" placeholder="Adresse mail">
         </fieldset>
-        <fieldset class="livraison">
+        <fieldset id="livraison">
           <legend class="livraison">Adresse de livraison</legend>
             <label for="adress">1 : Adresse : </label>
             <textarea name="" id="" cols="25" rows="10"></textarea> <br>
@@ -29,7 +29,7 @@
             <label for="city">3 : Ville</label>
             <input type="text" placeholder="Ville">
         </fieldset>
-        <fieldset class="payment">
+        <fieldset id="payment">
           <legend class="payment">Votre moyen de paiement</legend>
             <label for="paymenttype">1 : Type de carte bancaire</label><br>
             <input type="radio" name="paymenttype" id=""> <label for="VISA">VISA</label> <br>
