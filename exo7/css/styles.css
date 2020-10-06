@@ -1,9 +1,9 @@
-#identite legend {
+#identity, .identity {
     background-color: #2574a9;
 }
-#livraison legend { 
+#shipping, .shipping { 
     background-color: #9a12b3;
 }
-#payment legend {
+#payment, .payment {
     background-color: #db0a5b;
 }

@@ -4,52 +4,56 @@
 <head>
   <title>Votre identite</title>
   <meta charset="UTF-8">
-  <link rel="stylesheet href="css/styles.css">    
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-  
-  <form method="POST" action="traitement.php">
-        <fieldset>
-        <fieldset id="identite">
-          <legend class="identite">Votre identité</legend>
-            <label for="lname">1 : Nom :</label>
-            <input type="text" placeholder="Nom"><br>
-            <label for="fname">2 : Prénom :</label>
-            <input type="text" placeholder="Prénom"><br>
-            <label for="mail">3 : Prénom :</label>
-            <input type="email" placeholder="Adresse mail">
-        </fieldset>
 
-        <fieldset id="livraison">
-          <legend class="livraison">Adresse de livraison</legend>
-            <label for="adress">1 : Adresse : </label>
-            <textarea name="" id="" cols="25" rows="10"></textarea><br>
-            <label for="cp">2 : Code postal</label>
-            <input type="text" placeholder="Code postal"> <br>
-            <label for="city">3 : Ville</label>
-            <input type="text" placeholder="Ville">
-        </fieldset>
-        
-        <fieldset id="payment">
-          <legend class="payment">Votre moyen de paiement</legend>
-            <label for="paymenttype">1 : Type de carte bancaire</label><br>
-            <input type="radio" name="paymenttype" id=""> <label for="VISA">VISA</label><br>
-            <input type="radio" name="paymenttype" id=""> <label for="Mastercard">Mastercard</label> <br>
-            <label for="cardnumber">2 : Numéro de carte :</label>
-            <input type="text" placeholder="Numéro de carte"><br>
-            <label for="securecode">3 : Code de sécurité</label>
-            <input type="text" placeholder="Code dé sécurité"><br>
-            <label for="cardnumber">4 : Nom du titulaire :</label>
-            <input type="text" placeholder="Nom du titulaire"><br>
-        </fieldset>
+  <form method="POST" action="">
 
+    <fieldset id="identity">
+      <legend class="identity">Votre identité</legend>
+      <ol>
+        <li><label for="lname">Nom :</label>
+          <input id="lname" name="lname" type="text" placeholder="Damien"></li>
+        <li><label for="fname">Prénom :</label>
+          <input id="fname" name="fname" type="text" placeholder="Marie"></li>
+        <li><label for="mail">Email :</label>
+          <input id="mail" name="mail" type="email" placeholder="Adresse mail"></li>
+      </ol>
+    </fieldset>
 
-         <input type="submit" value="J'achète !">
+    <fieldset id="shipping">
+      <legend class="shipping">Adresse de livraison</legend>
+      <ol>
+        <li><label for="address">Adresse : </label>
+          <textarea name="address" id="address" cols="25" rows="10" placeholder="adresse"></textarea></li>
+        <li><label for="cp">Code postal</label>
+          <input id="cp" name="cp" type="text" placeholder="Code postal"></li>
+        <li><label for="city">Ville</label>
+          <input id="city" name="city" type="text" placeholder="Ville"></li>
+      </ol>
+    </fieldset>
+
+    <fieldset id="payment">
+      <legend class="payment">Votre moyen de paiement</legend>
+      <ol>
+        <li>
+          <div>Type de carte bancaire :</div>
+          <input id="VISA" name="paymenttype" type="radio" value="VISA"><label for="VISA">VISA</label>
+          <input id="Mastecard" name="paymenttype" type="radio" value="Mastercard"><label for="Mastercard">Mastercard</label>
+        </li>
+        <li><label for="cardnumber">Numéro de carte :</label>
+          <input id="cardnumber" name="cardnumber" type="text" placeholder="Numéro de carte"></li>
+        <li><label for="securecode">Code de sécurité</label>
+          <input id="securecode" name="securecode" type="text" placeholder="Code dé sécurité"></li>
+        <li><label for="cardnumber">Nom du titulaire :</label>
+          <input id="cardnumber" name="cardnumber" type="text" placeholder="Nom du titulaire"></li>
+      </ol>
+    </fieldset>
+
+    <button type="submit">J'achète !</button>
   </form>
 
 </body>
-
-
-
 </html>
